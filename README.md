@@ -4,6 +4,8 @@ A retrieval-augmented generation (RAG) chatbot that answers recipe, nutrition, a
 
 Built as an end-to-end project covering data engineering, embeddings, vector search, LLM integration, safety guardrails, evaluation, and a custom UI.
 
+![Nutrify home page](screenshots/homepage.png)
+
 ---
 
 ## Features
@@ -14,6 +16,26 @@ Built as an end-to-end project covering data engineering, embeddings, vector sea
 - **Robust to typos/ambiguity** — correctly interprets misspelled or abbreviated health terms (e.g., "ocos" → PCOS)
 - **General knowledge fallback** — supplements retrieved context with the underlying LLM's own nutrition knowledge when the exact match isn't in the database, rather than refusing
 - **8,076 indexed chunks** in a local vector store (ChromaDB)
+
+---
+
+## Screenshots
+
+### Chat in action
+
+| Recipe answer: banana köfte | Nutrition breakdown table |
+|---|---|
+| ![Banana köfte recipe answer](screenshots/chatconversation1.png) | ![Nutrition snapshot table](screenshots/chatconversation2.png) |
+| **Recipe with ingredients table: mango milkshake** | **Nutrition question: alkaline foods** |
+| ![Mango milkshake recipe](screenshots/chatconverstion3.png) | ![Alkaline foods explanation](screenshots/chatconversation4.png) |
+
+### Sidebar: chat history and suggested questions
+
+<p align="center">
+  <img src="screenshots/sidebar1.png" alt="Sidebar with past conversations" width="300">
+  &nbsp;&nbsp;
+  <img src="screenshots/sidebar2.png" alt="Sidebar with suggested health guideline questions" width="300">
+</p>
 
 ---
 
