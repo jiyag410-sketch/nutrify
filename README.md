@@ -1,5 +1,5 @@
 # 🥗 Nutrify — AI Health & Nutrition Assistant
-  🔗 **Live demo:** https://nutrify-jiya.streamlit.app
+🔗 **Live demo:** https://nutrify-jiya.streamlit.app
 
 A retrieval-augmented generation (RAG) chatbot that answers recipe, nutrition, and health guideline questions, grounded in a curated knowledge base spanning **US and Indian cuisine** and **public health nutrition guidance** (USDA, CDC, WHO, and ICMR-NIN).
 
