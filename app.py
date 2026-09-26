@@ -16,12 +16,19 @@ st.set_page_config(
 )
 
 # ----------------------------------------------------------------------
-# PERSISTENT CHAT HISTORY (stored on disk as JSON)
+# CHAT HISTORY
+# Private by default: each visitor's past conversations live only in their own
+# browser session (st.session_state), so visitors never see each other's chats.
+# To keep history on disk across restarts when running locally, add
+# NUTRIFY_SAVE_HISTORY=1 to your .env file.
 # ----------------------------------------------------------------------
 HISTORY_FILE = "data/chat_sessions.json"
+SAVE_TO_FILE = os.getenv("NUTRIFY_SAVE_HISTORY") == "1"
 
 
 def load_sessions():
+    if not SAVE_TO_FILE:
+        return st.session_state.setdefault("chat_sessions", {"sessions": []})
     if not os.path.exists(HISTORY_FILE):
         return {"sessions": []}
     try:
@@ -32,6 +39,9 @@ def load_sessions():
 
 
 def save_sessions(data):
+    if not SAVE_TO_FILE:
+        st.session_state["chat_sessions"] = data
+        return
     os.makedirs(os.path.dirname(HISTORY_FILE), exist_ok=True)
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
