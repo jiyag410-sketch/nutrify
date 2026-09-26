@@ -13,6 +13,31 @@ embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 client_db = chromadb.PersistentClient(path="./vectorstore")
 collection = client_db.get_or_create_collection(name="health_nutrition")
 
+
+def _build_vectorstore_if_empty():
+    """On a fresh machine (e.g. Streamlit Cloud) the vectorstore folder is not in the repo,
+    so build it once from data/processed_chunks.json. Takes a few minutes the first time."""
+    if collection.count() > 0:
+        return
+    import json
+    with open("data/processed_chunks.json", "r", encoding="utf-8") as f:
+        chunks = json.load(f)
+    texts = [c["text"] for c in chunks]
+    metadatas = [{"source": c["source"]} for c in chunks]
+    batch_size = 256
+    for i in range(0, len(texts), batch_size):
+        batch = texts[i:i + batch_size]
+        collection.add(
+            ids=[str(j) for j in range(i, i + len(batch))],
+            embeddings=embed_model.encode(batch).tolist(),
+            documents=batch,
+            metadatas=metadatas[i:i + batch_size],
+        )
+    print(f"Vector store built: {collection.count()} chunks")
+
+
+_build_vectorstore_if_empty()
+
 # Connect to Groq
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
