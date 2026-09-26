@@ -1,0 +1,18 @@
+SOURCE: Adapted from general clinical and public health guidance on thyroid nutrition in the Indian context (paraphrased for this project)
+
+TOPIC: Thyroid Disorders and Diet (Hypothyroidism Focus)
+
+Thyroid disorders, especially hypothyroidism (an underactive thyroid), are common in India and affect metabolism, energy levels, weight, and menstrual health. Diet cannot cure thyroid disorders, but certain nutritional factors support thyroid function and can complement medical treatment.
+
+Key nutrients and dietary considerations:
+- Iodine is essential for thyroid hormone production. Iodized salt is the primary source in Indian diets; dairy products, fish, and eggs also contribute iodine. Both iodine deficiency and excessive iodine intake can affect thyroid function, so supplementation beyond normal dietary iodine should only be done under medical guidance.
+- Selenium (found in nuts, especially Brazil nuts, whole grains, and some legumes) supports thyroid hormone metabolism.
+- Adequate protein intake (dals, paneer, curd, eggs, fish, lean meats) supports overall metabolic function, which can be affected by thyroid imbalance.
+- Goitrogens — compounds found in raw cruciferous vegetables (cabbage, cauliflower, broccoli, mustard greens) and soy — can interfere with thyroid hormone production in very high raw quantities, but cooking these vegetables significantly reduces this effect, and moderate cooked intake is generally not a concern for most people.
+- Managing sugar intake matters particularly for those with hypothyroidism, since an underactive thyroid can worsen insulin resistance; favoring low-GI foods (millets, whole grains, legumes) similar to general diabetes-friendly guidance can help.
+- Fiber-rich foods support digestion, which can be sluggish with hypothyroidism, but very high fiber intake taken at the same time as thyroid medication can reduce medication absorption — this timing matters more than the food itself.
+
+Practical note on medication timing:
+Thyroid medication (levothyroxine) is typically recommended to be taken on an empty stomach, with a gap of 30-60 minutes (or as advised by the prescribing doctor) before eating or drinking anything other than water, since food, coffee, calcium, and iron supplements can all reduce medication absorption if taken too close together.
+
+DISCLAIMER: This is general dietary information, not personalized medical advice or a diagnosis. Thyroid disorders require blood tests (TSH, T3, T4) for diagnosis and monitoring, and any dietary or supplement changes — especially involving iodine or selenium supplementation — should be discussed with an endocrinologist or doctor managing thyroid treatment.

@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+vectorstore/
+data/chat_sessions.json
+data/raw/RAW_recipes.csv
+data/raw/indian_recipes_raw.csv

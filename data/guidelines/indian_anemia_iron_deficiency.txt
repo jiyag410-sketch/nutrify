@@ -1,0 +1,21 @@
+SOURCE: Adapted from ICMR-NIN reports, National Health Mission guidelines on Iron Deficiency Anaemia, and Anemia Mukt Bharat program materials (paraphrased for this project)
+
+TOPIC: Iron Deficiency Anemia and Diet (Indian Context)
+
+Iron deficiency anemia is one of the most widespread nutritional problems in India, affecting a large share of women, children, and adolescent girls. It is primarily caused by insufficient dietary iron intake, poor absorption of iron from plant-based foods, and increased iron needs during pregnancy, menstruation, and growth periods.
+
+Key facts:
+- Most dietary iron in India comes from plant sources (cereals, pulses, leafy vegetables), which contain "non-heme" iron that is less easily absorbed by the body than "heme" iron from animal sources (meat, poultry, fish).
+- The recommended dietary allowance (RDA) for iron differs by group: roughly 19 mg/day for adult men and around 29 mg/day for adult women (higher due to menstrual blood loss), with higher needs during pregnancy.
+- Anemia symptoms include fatigue, weakness, dizziness, pale skin, and shortness of breath; severe or persistent symptoms should be evaluated by a doctor with a blood test, not self-diagnosed through diet alone.
+
+Dietary strategies to improve iron intake and absorption:
+- Include iron-rich plant foods regularly: leafy greens (spinach/palak, fenugreek/methi leaves), legumes (lentils, chickpeas, rajma), jaggery (in moderation), and iron-fortified foods.
+- Pair iron-rich foods with vitamin C sources (lemon, tomato, amla, citrus fruits, guava) at the same meal, since vitamin C significantly improves absorption of non-heme iron.
+- Avoid drinking tea or coffee immediately before or after iron-rich meals, since tannins in tea can inhibit iron absorption; leaving a gap of an hour or more helps.
+- Soaking, sprouting, and fermenting grains and legumes (as in idli/dosa batter, sprouted moong) can reduce phytates that block iron absorption, improving the iron available from plant foods.
+- For those who eat non-vegetarian food, including modest amounts of meat, poultry, fish, or eggs can help boost heme iron intake, which is absorbed more efficiently than plant iron.
+
+National programs such as Anemia Mukt Bharat and the National Iron Plus Initiative provide iron and folic acid supplementation for at-risk groups (young children, adolescent girls, pregnant and lactating women) as part of a broader strategy alongside dietary improvement.
+
+DISCLAIMER: This is general public health information, not personalized medical advice or a diagnosis. Anemia should be confirmed through medical testing, and treatment (including any supplementation) should be guided by a healthcare provider.
